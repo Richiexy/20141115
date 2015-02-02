@@ -55,7 +55,7 @@ public class TTT
 	}
 	
 	@Test
-	public void login() throws ClientProtocolException, IOException{
+	public void loginLocal() throws ClientProtocolException, IOException{
 		List<NameValuePair> formparams = new ArrayList<NameValuePair>();  
 		formparams.add(new BasicNameValuePair("loginName", "admin"));  
 		formparams.add(new BasicNameValuePair("password", "1"));  

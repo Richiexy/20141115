@@ -69,6 +69,7 @@
 //			AdEcioInfo tmpEcioInfo = ecioInfoList.get(0);
 //			tmpEcioInfo.setInfoId(null);
 //			tmpEcioInfo.setAuditOrg(orgId);
+//			tmpEcioInfo.setApprUser(syscheckerMap.get(orgId));
 //			tmpEcioInfo.setCreateUser(syscheckerMap.get(orgId));
 //			tmpEcioInfo.setLastModifier(syscheckerMap.get(orgId));
 //			hqlOperate.save(tmpEcioInfo);

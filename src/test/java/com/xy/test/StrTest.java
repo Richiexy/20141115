@@ -1,5 +1,7 @@
 package com.xy.test;
 
+import org.junit.Test;
+
 
 public class StrTest {
 
@@ -26,6 +28,15 @@ public class StrTest {
 		for(int i=1;i<=k;i++)
 			lotteryodds = lotteryodds*(n-i+1)/i;
 		System.out.println(lotteryodds);
+	}
+	
+	@Test
+	public void test04(){
+		String sss = "'123','234'";
+		String sss2 = "123,234";
+		
+		System.out.println("sss = " + sss.replace("'", ""));
+		System.out.println("sss2 = " + sss2.replace("'", ""));
 	}
 
 }
